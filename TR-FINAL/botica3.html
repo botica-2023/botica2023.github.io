@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTICA</title>
+</head>
+<body>
+    
+    <h3>Rellenar</h3>
+
+    <label for="cumple">Fecha:</label>
+    <input type="date" name="cumple" id="cumple">
+    <br>
+
+    <h3>Validacion</h3>
+    <form>
+        <label for="mail">Correo:</label>
+        <input type="email" name="mail" id="mail" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h3>Archivo</h3>
+    <label for="myFile">Archivo:</label>
+    <input type="file" name="myFIle" id="myFile">
+    <br><br>
+    <h3>HIDDEN</h3>
+    <form>
+        <input type="hidden" name="oculto" id="oculto" 
+            value="SIN CONFIRMAR" >
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br>
+    <h3>Mes y año </h3>
+    <label for="mes">Mes y año</label>
+    <input type="month" name="mes" id="mes">
+    <br>
+    <h3>Numero</h3>
+    <form>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad"
+            min="1" max="10">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+    <label for="producto">Producto</label>
+    <select name="producto" id="producto">
+        <option value="00">Pastillas</option>
+        <option value="01" selected>Productos de belleza</option>
+        <option value="02">Cuisados de piel</option>
+    </select>
+    <br><br>
+    <label for="desc">Descripcion:</label>
+    <textarea name="desc" id="desc" cols="50" rows="10"></textarea>
+    <br><br>
+    <form>
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+
+<style>
+    body{
+        background-color: #171717;
+        color: aliceblue;
+    }
+</style>
+
+
+</body>
+</html>

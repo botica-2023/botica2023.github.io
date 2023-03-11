@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Botica Chancay">
+    <meta name="keywords" content="meta, tags, html, navegador, buscador, codifica informacion, impresincible">
+    <meta name="robots" content="index">
+    <title>Botica Chancay.net</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="ESTILOS/estilo.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Botica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" target="_blank" aria-current="page" href="Imagenes/VAPORUB.jpg">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="botica2.html">Sesión</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Opciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="botica3.html">Opcion 1</a></li>
+                            <li><a class="dropdown-item" href="botica2.html">Opcion 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="botica3.html">Opcion 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Desactivado</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+    <div class="container">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Imagenes/header_ilaria_dove_peru_full-1511248-jpg.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Imagenes/MEDICAMENTO2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/MEDICMAENTO1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/neutrogena.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <div class="sub">
+        <h3>MEDICAMENTOS</h3>
+    </div>
+
+    <br>
+
+    <table>
+        <tr>
+            <th width="50%" colspan="2">Nombres de medicamentos</th>
+            <th width="15%">Disponibilidad</th>
+            <th width="20%">Costo</th>
+            <th width="15%">URL</th>
+        </tr>
+        <tr>
+            <td width="20%" rowspan="2">Paracetamol</td>
+            <td width="30%" rowspan="2">
+                <img src="Imagenes/PARACETAMOL.jpg" width="50%" alt="">
+            </td>
+            <td rowspan="2">
+                <input type="checkbox" name="cuenta" id="cuenta" checked>
+            </td>
+            <td> Generico - S/1.00</td>
+            <td rowspan="2">
+                <a href="botica2.html">Sesión</a>
+            </td>
+        </tr>
+        <tr>
+            <td> De marca - S/2.00 </td>
+        </tr>
+
+
+        <tr>
+            <td width="20%" rowspan="2">Ibuprofeno</td>
+            <td width="30%" rowspan="2">
+                <img src="Imagenes/IBUPROFENO.jpg" width="50%" alt="">
+            </td>
+            <td rowspan="2">
+                <input type="checkbox" name="cuenta" id="cuenta">
+            </td>
+            <td> Generico - S/1.50</td>
+            <td rowspan="2">
+                <a href="botica2.html">Sesión 2</a>
+            </td>
+        </tr>
+        <tr>
+            <td> De marca - S/2.50 </td>
+        </tr>
+
+        <tr>
+            <td width="20%" rowspan="2">Ibuprofeno</td>
+            <td width="30%" rowspan="2">
+                <img src="Imagenes/Anaflex.jpg" width="50%" alt="">
+            </td>
+            <td rowspan="2">
+                <input type="checkbox" name="cuenta" id="cuenta">
+            </td>
+            <td> Generico - 0</td>
+            <td rowspan="3">
+                <a href="botica2.html">Sesión 3</a>
+            </td>
+        </tr>
+        <tr>
+            <td> De marca - S/150.00 - la caja</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <div class="container-fluid1 p-5  text-black text-center">
+        <h2>Detalles de los medicamentos</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>PANADOL</h3>
+                <p>Panadol Original Tablets es un analgésico y antipirético suave, y se recomienda para el tratamiento
+                    de la mayoría de las afecciones febriles y dolorosas, por ejemplo, dolor de cabeza que incluye
+                    migraña y dolores de cabeza por tensión, dolor de muelas, dolor de espalda, dolores musculares y
+                    reumáticos, dismenorrea, dolor de garganta y para aliviar la fiebre, los dolores y molestias de los
+                    resfriados y la gripe. También recomendado para el alivio sintomático del dolor debido a artritis no
+                    graves.</p>
+                <img src="Imagenes/PANADOL.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h3>Vicks VapoRub</h3>
+                <p>Un ungüento tópico hecho de ingredientes que incluyen alcanfor, aceite de eucalipto y
+                    mentol que se frota en la garganta y el pecho, no alivia la congestión nasal. Pero el fuerte olor
+                    mentolado engaña tu cerebro, así sientes como si estuvieras respirando a
+                    través de una nariz sin obstrucciones.En contraste, los comprimidos descongestionantes y los
+                    aerosoles nasales pueden estrechar los vasos sanguíneos en el revestimiento
+                    de la nariz, lo que lleva a una reducción de la hinchazón en los conductos nasales.</p>
+
+                <img src="Imagenes/VAPORUB.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h3>Ketorolaco</h3>
+                <p>Ketorolaco se usa para aliviar el dolor moderadamente fuerte, por lo general después de una operación
+                    quirúrgica. Pertenece a una clase de medicamentos llamados antiinflamatorios sin esteroides.
+                    Funciona al detener la producción de una sustancia que causa dolor, fiebre e inflamación.Viene
+                    envasado en forma de tabletas para tomar por vía oral. Por lo general se toma cada 4-6 horas
+                    siguiendo un horario, o según sea necesario. Siga cuidadosamente las
+                    instrucciones en la etiqueta del medicamento y pregúntele a su doctor cualquier cosa
+                    que no entienda.</p>
+                    <img src="Imagenes/kt.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="video">
+            <video width="500" height="450" controls>
+                <source src="Imagenes/Comercial Head .mp4" type="video/mp4">
+            </video>
+        </div>
+        <nav class="footer">
+            <ul>
+                <li> <a href="botica3.html"> Inicio</a></li>
+                <li> <a href="botica2.html"> Términos</a></li>
+                <li> <a href="botica3.html"> Centro de ayuda</a></li>
+            </ul>
+        </nav>
+
+
+    </footer>
+
+</body>
+
+</html>
